@@ -1,0 +1,10 @@
+Package: net.iapps4u.plusnoads
+Name: PlusNoAds
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Hides ads on the ++ tweaks. At this moment works only on Youtube ++, Twitter ++, Facebook ++, Instagram ++ and Whatsapp ++
+Maintainer: Jake James
+Author: Jake James
+Section: Tweaks
+Version: 0.0.1-9+debug
+Installed-Size: 124

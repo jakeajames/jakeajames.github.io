@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Filter</key>
+	<dict>
+		<key>Bundles</key>
+		<array>
+			<string>com.facebook.Facebook</string>
+			<string>com.burbn.instagram</string>
+	
+			<string>com.atebits.Tweetie2</string>
+
+			<string>net.whatsapp.WhatsApp</string>
+			<string>com.google.ios.youtube</string>
+		</array>
+	</dict>
+</dict>
+</plist>
+

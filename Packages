@@ -1,0 +1,505 @@
+Package: com.iapps4u.inoota
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Jakeashacks
+Depends: firmware (>=10.0)
+Architecture: iphoneos-arm
+Filename: debs//inoota.deb
+Size: 786
+SHA256: 5b4c58941abd546022935e24a585c5679c9ee4a15c013564323958d60aabc997
+Description: Disables OTA updates on the iOS 10.1.1 Jailbreak. To get OTA updates again install 'jbOTA' from my repo (not reccomended)
+Name: iNoOTA 10
+Website: http://iapps4u.ga
+
+Package: com.iapps4u.jbOTA
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Jakeashacks
+Depends: firmware (>=10.0), com.iapps4u.inoota
+Architecture: iphoneos-arm
+Filename: debs//jbota.deb
+Size: 784
+SHA256: fb90734356c2b4244c575d083ae84b9623f7e82d4270d6c61a2eb7982837b040
+Description: Enables OTA updates on the iOS 10.1.1 Jailbreak. To disable OTA updates install 'iNoOTA' from my repo (reccomended)
+Name: jbOTA
+Website: http://iapps4u.ga
+
+Package: com.jakeashacks.activator
+Version: 1.0
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate, libactivator
+Architecture: iphoneos-arm
+Filename: debs//com.jakeashacks.activator_1.0_iphoneos-arm.deb
+Size: 3530
+Installed-Size: 120
+SHA256: e9bad8be11cfd45f4f9c37a5f11fc01395eaa2f705f14d0ee82949fa9b9effd3
+Description: Fixes some functionality inside of Activator by adding missing methods to SpringBoard. Does not touch Activator itself. Source code: https://github.com/jakeajames/ActivatorFix
+Name: ActivatorFix
+Author: Jake James
+
+Package: com.jakeashacks.activatorfix
+Version: 1.2.1
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate, libactivator
+Architecture: iphoneos-arm
+Filename: debs//com.jakeashacks.activatorfix_1.2.1_iphoneos-arm.deb
+Size: 10390
+Installed-Size: 120
+SHA256: 2e20792c1cdffae2ec50afe613100eb658c0f3f94c302ff82d27d9d9f08c5f6d
+Description: This tweak fixes some functionality inside Activator by adding missing methods to SpringBoard. Does not touch Activator itself. Source code: https://github.com/jakeajames/ActivatorFix
+Name: ActivatorFix
+Author: Jake James
+
+Package: com.jakeashacks.autoent
+Version: 3.1
+Section: System
+Maintainer: Jake James <jakeashacks@gmail.com>
+Architecture: iphoneos-arm
+Filename: debs//com.jakeashacks.autoent_3.1_iphoneos-arm.deb
+Size: 5332
+SHA256: 9cff1e404b6a71c033c99c7b70e1aa4a5801d6b87420642820ced4ae8c55656b
+Description: Entitles applications & binaries installed via Cydia in iOS 11. Run "autoentitle" via SSH to get list of options. Automatic patching is disabled by default, only enable if you have a clue how it works!
+Name: AutoEntitle
+Author: Jake James <jakeashacks@gmail.com>
+
+Package: com.jakeashacks.bounceit
+Version: 1.0.4
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate, firmware(>=11.0)
+Architecture: iphoneos-arm
+Filename: debs//com.jakeashacks.bounceit_1.0.4_iphoneos-arm.deb
+Size: 7784
+Installed-Size: 144
+SHA256: c1bbcbf516a8fc23a33d6058b7b3c0567e0ff2aacf3b6df8a059c83233f0835f
+Description: iOS 11/12/13 bounce effects
+Name: Bounce It!
+Author: Jake James
+
+Package: com.jakeashacks.catchathief
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//com.jakeashacks.catchathief_1.0.2_iphoneos-arm.deb
+Size: 15036
+Installed-Size: 128
+SHA256: 2b1d3cbe6e6b7718b78df496316437254616ffe5cf119937979b3d0c8745b1a3
+Description: Take a picture of whoever inputs an incorrect passcode! Does not support Touch ID/Face ID yet. Images are stored in /var/mobile/catchathief. Sending images via email is being looked into.
+Name: CatchaThief
+Author: Jake James
+
+Package: com.jakeashacks.cylinderfix
+Version: 0.0.2
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//cylinderfix.deb
+Size: 5388
+Installed-Size: 124
+SHA256: 7c6024f7c22f4ec3d34cace9fe0af7e2d6992681edb720cdab4bcf95072dd40e
+Description: Fixes Cylinder randomly disabling on iOS 11 and 12.
+Name: CylinderFix
+Author: Jake James
+
+Package: com.jakeashacks.jtool
+Version: 1.1.2
+Section: System
+Maintainer: Jake James <jakeashacks@gmail.com>
+Pre-Depends: firmware(>=11.0), curl
+Architecture: iphoneos-arm
+Filename: debs//com.jakeashacks.jtool_1.1.2_iphoneos-arm.deb
+Size: 35598
+SHA256: bac554596fef3aa455b642a43d04d92951b1e0681aab6667d28e90de6c469490
+Description: Installer for Jonathan Levin's jtool on iOS 11/12. Does not redistribute binaries.
+Name: jtool Installer
+Author: Jake James <jakeashacks@gmail.com>
+
+Package: com.jakeashacks.noNotch
+Version: 1.1.2
+Section: System
+Maintainer: Jake James <jakeashacks@gmail.com>
+Pre-Depends: firmware(>=11.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.6)
+Architecture: iphoneos-arm
+Filename: debs//noNotch.deb
+Size: 9694
+SHA256: e3fa091f558499981e70134f4e371dd1176197a35513e79542ccdb5954bcf1da
+Description: Hides the notch on iPhone X. Issues are present. Source code: https://github.com/jakeajames/noNotch
+Name: noNotch
+Author: Jake James <jakeashacks@gmail.com>
+
+Package: com.jakeashacks.nobetaexp
+Version: 1.0-1+debug
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//com.jakeashacks.nobetaexp_1.0_iphoneos-arm.deb
+Size: 3912
+Installed-Size: 120
+SHA256: 8e731013f51945dadaaea3e3a7d1a438c77b48f11b3d238529bc31ddbd67aa2d
+Description: Remove the alert which comes every time you unlock your device on an expired beta. Made specifically for iOS 11.3 beta 5&6
+Name: noBetaExpire
+Author: Jake James
+
+Package: com.jakeashacks.notelugucrash
+Version: 1.0
+Section: System
+Maintainer: Jake James <jakeashacks@gmail.com>
+Architecture: iphoneos-arm
+Filename: debs//com.jakeashacks.notelugucrash_1.0_iphoneos-arm__.deb
+Size: 94586
+SHA256: 4ae2e94489fb356ab560172b820b4291669e2d5047f80b19517b71506daebb9d
+Description: Removes the crash character from the Telugu font, preserving other Telugu characters
+Name: NoTeluguCrash
+Author: Jake James <jakeashacks@gmail.com>
+
+Package: com.jakeashacks.ohwfix
+Version: 0.0.1-1+debug
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate, firmware(>= 11.0)
+Architecture: iphoneos-arm
+Filename: debs//com.jakeashacks.ohwfix_0.0.1-1+debug_iphoneos-arm.deb
+Size: 11870
+Installed-Size: 128
+SHA256: ae20b3a4d5ca3510bf14a20ea04d8f5ca0fc01e77811901254406f1435933956
+Description: Fix for OneHandWizard on iOS 11. Use with Activator (& latest ActivatorFix). Source code: github.com/jakeajames/OneHandWizardFix
+Name: OneHandWizardFix
+Author: Jake James
+
+Package: com.jakeashacks.ohwinstaller
+Version: 0.0.3
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate, firmware(>= 11.0), curl
+Conflicts: com.jakeashacks.ohwfix
+Architecture: iphoneos-arm
+Filename: debs//com.jakeashacks.ohwinstaller_0.0.3_iphoneos-arm.deb
+Size: 73722
+Installed-Size: 128
+SHA256: bc88938f9acb9c852a64f252b3f840f06314b1836dd51a8351877301a1880462
+Description: Downloads, fixes & installs OneHandWizard on iOS 11. Use with Activator (& latest ActivatorFix). *Must have purchased OneHandWizard already*. Source code: github.com/jakeajames/OneHandWizardFix
+Name: OneHandWizard Installer (iOS 11)
+Author: Jake James
+
+Package: com.jakeashacks.realcc
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//realcc.deb
+Size: 6522
+Installed-Size: 72
+SHA256: e9c73cb22c5e3f04a88e75d84a58bd0fd4c44e8bd5819ac51df9f55a5d893216
+Description: Actually disable Wi-Fi from the iOS 11+ CC. Tweak is now discontinued. Use 'CC On & Off' by PoomSmart as a better alternative with less issues.
+Name: RealCC
+Author: Jake James
+
+Package: com.jakeashacks.rootme
+Version: 0.0.1
+Section: System
+Maintainer: Jake James
+Depends: firmware(>=11.0)
+Architecture: iphoneos-arm
+Filename: debs//rootme.deb
+Size: 24684
+Installed-Size: 200
+SHA256: dca023848326c4cfa7b9523fe7f3fab3b8dc68e57a0cff06aa113d823916b548
+Description: A mini-daemon to give root and unsandbox Xcode apps. For more info: http://github.com/jakeajames/rootme-tutorial
+Name: rootme
+Author: Jake James
+
+Package: com.jakeashacks.say
+Version: 0.0.2
+Section: System
+Maintainer: Jake James
+Depends: 
+Architecture: iphoneos-arm
+Filename: debs//say.deb
+Size: 11184
+Installed-Size: 252
+SHA256: af2f8bf64ebff0ff9c777bcb95a5c6ca9a7b1045a345c4ea34574a6ecb62c064
+Description: "say" command for iOS devices. Make Siri speak anything you want from command line. iOS 7-11. Usage: say "your text here" (Must use quotes when message has spaces)
+Name: say
+Author: Jake James
+
+Package: com.jakeashacks.timetounlock
+Version: 1.0.9
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate, firmware(>=11.0), preferenceloader
+Architecture: iphoneos-arm
+Filename: debs//com.jakeashacks.timetounlock_1.0.9_iphoneos-arm.deb
+Size: 37128
+Installed-Size: 280
+SHA256: 6351cbb50f4515412c206dc08909c6bdd91765528086abc768cb1eb92e7f4092
+Description: Set current time as your passcode. Configure from Settings.
+Name: TimeToUnlock
+Author: Jake James
+
+Package: com.jakeashacks.trustbin
+Version: 0.0.3
+Section: Development
+Maintainer: Jake James <jakeashacks@gmail.com>
+Architecture: iphoneos-arm
+Filename: debs//com.jakeashacks.trustbin_0.0.3_iphoneos-arm.deb
+Size: 13510
+SHA256: 383503b8e0c857b455da79bf7cc79790b4a5e02916d208ba0a0fc39b3fe0046e
+Description: Inject hashes to the trustcache in order to make a binary trusted by AMFI. Usage:
+  trustbin <arg>
+  The argument can be either a mach-o or a directory with them
+Name: Trustcache Injector
+Author: Jake James <jakeashacks@gmail.com>
+
+Package: com.jakeashacks.unrestr1ct0r
+Version: 0.0.3
+Section: System
+Maintainer: Jake James <jakeashacks@gmail.com>
+Pre-Depends: firmware(>=11.0), coreutils, com.jakeashacks.jtool
+Architecture: iphoneos-arm
+Filename: debs//com.jakeashacks.unrestr1ct0r_0.0.3_iphoneos-arm.deb
+Size: 1814
+SHA256: d83c1485cd5681a58c04cdd60b3ce954922a9550534f790fc9959ef1224ae6a9
+Description: Full filesystem access over USB.
+Name: Unrestr1ct0r
+Author: Jake James <jakeashacks@gmail.com>
+
+Package: com.tonyk7.mgspoof
+Version: 0.0.4-1
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//com.tonyk7.mgspoof_0.0.4-1_iphoneos-arm.deb
+Size: 34766
+Installed-Size: 312
+SHA256: 9783172c9e575fa376e7c97f5d41a3ee5e66d9247e0be34a6fc04b98c50cc426
+Description: Tool that can be used to spoof MGCopyAnswer's result. (iOS 9 - 13.5)
+Name: MGSpoof
+Author: Tony
+
+Package: cycript
+Version: 0.9.520-XI2
+Priority: optional
+Section: Development
+Maintainer: Jake James <jakeashacks@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//cycript_0.9.520-XI2_iphoneos-arm.deb
+Size: 3847428
+SHA256: 45a43cbb826ff8352a34e3cc9915beb9b27f9f6a14431c4bb95463f889279fd3
+Description: Cycript for arm64 & iOS 11. Now fully works thanks to the new Cydia Substrate :). On iOS 11, get it from http://apt.saurik.com/beta/substrate11/
+Name: Cycript (arm64)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+
+Package: ga.iapps4u.folders
+Version: 0.0.1-3+debug
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//ga.iapps4u.folders_0.0.1-3+debug_iphoneos-arm.deb
+Size: 4040
+Installed-Size: 120
+SHA256: de483a67e97ed788eee6a71f52381a3639d6e470b157a028185fd3e024bbb651
+Description: A simple tweak to make folders clear. Works on iOS 10
+Name: FoldersClear 10
+Author: Jake James
+
+Package: ga.iapps4u.idarkify
+Version: 0.0.1-5
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate, firmware (<=9.3.3), firmware (>=9.0)
+Architecture: iphoneos-arm
+Filename: debs//ga.iapps4u.idarkify_0.0.1-5_iphoneos-arm.deb
+Size: 4746
+Installed-Size: 88
+SHA256: 28e5cedcedb4f8e2ddabce143482033930899d0577184549d514203e1eadda90
+Description: Partial Dark Mode for iOS 9. Works with Eclipse 3 (DISABLE ON SPRINGBOARD!) Includes 3D Touch Toggles, the Dock and the alerts. Still in BETA and a lot of bugs are present. On future betas MAY add: Control Center, white text on alerts, configuration in Settings
+Name: iDarkify 9 (BETA)
+Author: Jake James
+
+Package: ga.jakeashacks.anemoneinstaller
+Version: 1.0.16
+Section: Tweaks
+Maintainer: Jake James <jakeashacks@gmail.com>
+Pre-Depends: curl, ga.jakeashacks.substitutedummy, ldid
+Depends: pincrush, mobilesubstrate, org.swift.libswift (>=5.0), firmware (<=12.4.4)
+Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Architecture: iphoneos-arm
+Filename: debs//ga.jakeashacks.anemoneinstaller_1.0.16_iphoneos-arm.deb
+Size: 17990
+SHA256: 8dc058d6f8390a4c4deaf31458f744bc063939e2757db811a5404fcef8144b89
+Description: Anemone 3.0 for unc0ver/checkra1n! If this doesn't work, wait for me to update it.
+Name: Anemone 3.0 for unc0ver and checkra1n
+Author: Jake James <jakeashacks@gmail.com>
+
+Package: ga.jakeashacks.csfix
+Version: 1.2
+Section: Tweaks
+Pre-Depends: ga.jakeashacks.substitutedummy, org.coolstar.classicfolders2, sed, coreutils, ga.jakeashacks.sharedfix, curl, mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//ga.jakeashacks.csfix_1.2_iphoneos-arm.deb
+Size: 6190
+SHA256: eabebbc8a8a23f9d868a37a6508574c240132d5ccc44c31efe5ff51472f41077
+Description: Fix for ClassicFolders 2 on Unc0ver
+Name: ClassicFolders 2 Fix for Unc0ver
+Author: Jake James <jakeashacks@gmail.com>
+
+Package: ga.jakeashacks.drunksileo
+Version: 1.0.6-2
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//ga.jakeashacks.drunksileo_1.0.6-2_iphoneos-arm.deb
+Size: 76876
+Installed-Size: 72
+SHA256: c0ce60296945486262318b237b587fd4553afc73750dced73008bd57f7f6f268
+Description: Freedom for Sileo. Enable FULL JavaScript on all depictions, *properly* load depictions (fixes issues like for example the Rocketbootstrap depiction), enable SHA1 and MD5 repos.
+Name: DrunkSileo for Sileo
+Author: Jake James
+
+Package: ga.jakeashacks.sharedfix
+Version: 1.1
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//ga.jakeashacks.sharedfix_1.1_iphoneos-arm.deb
+Size: 6666
+SHA256: 90f9854e01ec5fdcabb51cc4c92618c137b41d3e5bc416e16d7c240207c40c55
+Description: Fix various packages on Unc0ver
+Name: Shared Package Fix for Unc0ver
+Author: Jake James <jakeashacks@gmail.com>
+
+Package: ga.jakeashacks.substitutedummy
+Version: 1.3
+Section: Tweaks
+Maintainer: Jake James <jakeashacks@gmail.com>
+Architecture: iphoneos-arm
+Filename: debs//ga.jakeashacks.substitutedummy_1.3_iphoneos-arm.deb
+Size: 6392
+SHA256: 0db6e65596e759e929e2434d38857b5ca5bbb66135612e086a7c3360bf6b8775
+Description: Add Substrate support to Substitute tweaks! And by that I mean, tweaks made by coolstar!
+Name: Substitute & TweakInject Dummy for unc0ver
+Author: Jake James <jakeashacks@gmail.com>
+
+Package: ga.jakeashacks.ventanafix
+Version: 1.1
+Section: Tweaks
+Pre-Depends: ga.jakeashacks.substitutedummy, org.coolstar.ventana-modern, sed, coreutils, ga.jakeashacks.sharedfix, mobilesubstrate, curl
+Architecture: iphoneos-arm
+Filename: debs//ga.jakeashacks.ventanafix_1.1_iphoneos-arm.deb
+Size: 6176
+SHA256: 52f4722baadd875594fc841999dcd68313ad03dd24d73644ab070a42ff457dfb
+Description: Fix for Ventana on Unc0ver
+Name: Ventana Fix for Unc0ver
+Author: Jake James <jakeashacks@gmail.com>
+
+Package: ldid
+Version: 2:2.0.0
+Priority: optional
+Section: Development
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: firmware(>=11.0)
+Architecture: iphoneos-arm
+Filename: debs//ldid.deb
+Size: 26762
+Installed-Size: 136
+SHA256: b4220da47ac6883b05c999a67335ac9e6eb693f320441503b4cfb720d61241a9
+Description: pseudo-codesign Mach-O files
+Name: Link Identity Editor 2
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/ldid/
+
+Package: net.iapps4u-wisychannel.theosinstaller
+Version: 0.1.4
+Section: System
+Maintainer: Jake James + Wisy
+Depends: org.coolstar.iostoolchain, curl, git, coreutils, unzip, coreutils-bin
+Architecture: iphoneos-arm
+Filename: debs//net.iapps4u-wisychannel.theosinstaller_0.1.4_iphoneos-arm.deb
+Size: 6578
+SHA256: bcd1aaea9bf465eaca838ea4c4a3180d0290f2518be4a43b10181b9ffe37764d
+Description: Install theos and setup everything you need with one click! Works up to iOS 13, 32bit and 64bit, Electra, unc0ver, checkra1n. Does not support compiling arm64e. Usage (run as root): theosinstaller sdk_version_here (example: theosinstaller 10.3)
+Name: Theos Installer
+Author: Jake James + Wisy
+
+Package: net.iapps4u.RepoGen
+Version: 1.1
+Section: Apps
+Depends: firmware (>= 8.0)
+Architecture: iphoneos-arm
+Filename: debs//net.iapps4u.RepoGen_1.1_iphoneos-arm.deb
+Size: 5052192
+SHA256: d555b6e85d745192d4cdd230fcf06d3abe8589d97f19a694fc74fabb31a933c0
+Description: Generate a Cydia Repo straight from your device in simple clicks!
+Name: RepoGen
+Author: Jakeashacks
+
+Package: net.iapps4u.awesometweak
+Version: 0.0.1-13+debug
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//awesometweak.deb
+Size: 611730
+Installed-Size: 120
+SHA256: c08c548ce41df43e8239f43b27fa83f557408493694dd27481c0c9639c0b1ba3
+Description: An awesome MobileSubstrate tweak! Install and you will be surprised!!!!
+Name: AwesomeTweak!!
+Author: Jake James
+
+Package: net.iapps4u.harbor10
+Version: 1.1.6
+Section: Tweaks
+Maintainer: Jake James
+Depends: mobilesubstrate
+Conflicts: com.eswick.harbor10
+Architecture: iphoneos-arm
+Filename: debs//harbor.deb
+Size: 125958
+Installed-Size: 576
+SHA256: 47bf7b4062089314974ec5d79b012a8461f416a9cbcf8df0f5701b21e5fe5258
+Description: Harbor redesigned! Now iOS 11 like!
+Name: Harbor (iOS 10)
+Author: Evan Swick + Jake James
+
+Package: net.iapps4u.nmrr
+Version: 0.0.2
+Section: Patches
+Maintainer: Jake James
+Depends: firmware(>=10.0)
+Architecture: iphoneos-arm
+Filename: debs//net.iapps4u.nmrr_0.0.2_iphoneos-arm.deb
+Size: 932
+SHA256: e6de3f95a0724bbd4438fb18ba31df6cc57a510a90870de8fa858573bae12084
+Description: Tired of Apple revoking apps? Install NoMoreRevocations and you can now use and install revoked apps! What's so cool? AFTER REBOOT IT WILL STILL WORK! YES, YOU HEARD IT RIGHT! (PS. uninstalling won't undo)
+Name: NoMoreRevocations
+Author: Jake James
+
+Package: net.jakeashacks.theosinstaller2
+Version: 1.0.3
+Section: System
+Maintainer: Jake James
+Depends: clang-10, clang, odcctools, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, make, perl
+Conflicts: net.howett.theos, org.coolstar.cctools
+Architecture: iphoneos-arm
+Filename: debs//net.jakeashacks.theosinstaller2_1.0.3_iphoneos-arm.deb
+Size: 2366
+SHA256: 2b0bd62324f7f93d0af606ef83f973091dbc16a8c300b98acb7c5e10214f36ef
+Description: Install theos and setup everything you need with one click! Works on unc0ver and checkra1n. Supports compiling arm64e. Usage (run as root): theosinstaller sdk_version_here (example: theosinstaller 10.3)
+Name: Theos Installer 2 (unc0ver and checkra1n)
+Author: Jake James
+

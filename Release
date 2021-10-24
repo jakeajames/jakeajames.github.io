@@ -1,0 +1,9 @@
+Origin: Jakeashacks
+Label: Jake's Cydia Repo
+Suite: stable
+Version: 1.0
+Codename: jakeashacksrepo
+Architectures: iphoneos-arm
+Components: main
+Description: Jake James's Cydia Repository
+Date: Sat, 02 Jul 2016 05:20:50 +0000
